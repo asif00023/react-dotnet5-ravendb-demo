@@ -1,0 +1,62 @@
+2023-12-12 22:05:27.998 +01:00 [DBG] Hosting starting
+2023-12-12 22:05:28.376 +01:00 [DBG] Loaded hosting startup assembly lum.web.api
+2023-12-12 22:05:28.376 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-12 22:05:28.376 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-12 22:05:28.377 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-12 22:05:28.387 +01:00 [INF] Hosting environment: Development
+2023-12-12 22:05:28.389 +01:00 [INF] Content root path: E:\@work\LUM\react_4\back_end_3\lum_assignment\lum_sln\lum.web.api
+2023-12-12 22:05:28.389 +01:00 [DBG] Hosting started
+2023-12-12 22:05:28.401 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/swagger/index.html - -
+2023-12-12 22:05:28.455 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-12 22:05:28.554 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-12-12 22:05:28.711 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-12-12 22:05:28.717 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/swagger/index.html - - - 200 - text/html;charset=utf-8 317.3365ms
+2023-12-12 22:05:28.718 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/aspnetcore-browser-refresh.js - -
+2023-12-12 22:05:28.720 +01:00 [DBG] Connection ID "18086456121505087507" disconnecting.
+2023-12-12 22:05:28.727 +01:00 [DBG] Connection ID "18086456104325218329" disconnecting.
+2023-12-12 22:05:28.729 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 9.3384ms
+2023-12-12 22:05:28.743 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_vs/browserLink - -
+2023-12-12 22:05:29.618 +01:00 [DBG] Connection ID "18230571318170878010" disconnecting.
+2023-12-12 22:05:29.618 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 874.6499ms
+2023-12-12 22:05:29.676 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/swagger/v1/swagger.json - -
+2023-12-12 22:05:29.776 +01:00 [DBG] Connection ID "18230571318170878012" disconnecting.
+2023-12-12 22:05:29.776 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.1309ms
+2023-12-12 22:05:42.126 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/Material?pagesize=1000&pageNumber=1 - -
+2023-12-12 22:05:42.129 +01:00 [DBG] The request path  does not match the path filter
+2023-12-12 22:05:42.160 +01:00 [DBG] 1 candidate(s) found for the request path '/api/Material'
+2023-12-12 22:05:42.165 +01:00 [DBG] Endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)' with route pattern 'api/Material' is valid for the request path '/api/Material'
+2023-12-12 22:05:42.166 +01:00 [DBG] Request matched endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-12 22:05:42.168 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-12 22:05:42.175 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-12 22:05:42.208 +01:00 [INF] Route matched with {action = "GetMaterials", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterials(Int32, Int32) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-12 22:05:42.212 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-12 22:05:42.212 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-12 22:05:42.213 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-12-12 22:05:42.213 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-12 22:05:42.213 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-12 22:05:42.213 +01:00 [DBG] Executing controller factory for controller lum.web.api.Controllers.MaterialController (lum.web.api)
+2023-12-12 22:05:43.179 +01:00 [DBG] Executed controller factory for controller lum.web.api.Controllers.MaterialController (lum.web.api)
+2023-12-12 22:05:43.184 +01:00 [DBG] Attempting to bind parameter 'pagesize' of type 'System.Int32' ...
+2023-12-12 22:05:43.186 +01:00 [DBG] Attempting to bind parameter 'pagesize' of type 'System.Int32' using the name 'pagesize' in request data ...
+2023-12-12 22:05:43.187 +01:00 [DBG] Done attempting to bind parameter 'pagesize' of type 'System.Int32'.
+2023-12-12 22:05:43.187 +01:00 [DBG] Done attempting to bind parameter 'pagesize' of type 'System.Int32'.
+2023-12-12 22:05:43.187 +01:00 [DBG] Attempting to validate the bound parameter 'pagesize' of type 'System.Int32' ...
+2023-12-12 22:05:43.188 +01:00 [DBG] Done attempting to validate the bound parameter 'pagesize' of type 'System.Int32'.
+2023-12-12 22:05:43.189 +01:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' ...
+2023-12-12 22:05:43.189 +01:00 [DBG] Attempting to bind parameter 'pageNumber' of type 'System.Int32' using the name 'pageNumber' in request data ...
+2023-12-12 22:05:43.190 +01:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-12-12 22:05:43.190 +01:00 [DBG] Done attempting to bind parameter 'pageNumber' of type 'System.Int32'.
+2023-12-12 22:05:43.190 +01:00 [DBG] Attempting to validate the bound parameter 'pageNumber' of type 'System.Int32' ...
+2023-12-12 22:05:43.190 +01:00 [DBG] Done attempting to validate the bound parameter 'pageNumber' of type 'System.Int32'.
+2023-12-12 22:05:43.191 +01:00 [INF] GetMaterials called
+2023-12-12 22:05:43.591 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-12-12 22:05:43.594 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-12-12 22:05:43.595 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-12-12 22:05:43.595 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-12-12 22:05:43.595 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-12-12 22:05:43.596 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-12-12 22:05:43.597 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-12 22:05:43.618 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api) in 1399.6108ms
+2023-12-12 22:05:43.619 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-12 22:05:43.620 +01:00 [DBG] Connection ID "18230571318170878014" disconnecting.
+2023-12-12 22:05:43.620 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/Material?pagesize=1000&pageNumber=1 - - - 200 - application/json;+charset=utf-8 1493.5970ms

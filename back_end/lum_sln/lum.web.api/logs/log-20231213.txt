@@ -1,0 +1,146 @@
+2023-12-13 11:04:57.224 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-13 11:04:57.433 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/swagger - -
+2023-12-13 11:04:57.522 +01:00 [INF] Hosting environment: Development
+2023-12-13 11:04:57.522 +01:00 [INF] Content root path: E:\@work\LUM\Git\react-dotnet5-ravendb\back_end\lum_sln\lum.web.api
+2023-12-13 11:04:57.769 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/swagger - - - 301 - - 349.8005ms
+2023-12-13 11:04:57.870 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/swagger/index.html - -
+2023-12-13 11:04:58.071 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/swagger/index.html - - - 200 - text/html;charset=utf-8 200.3740ms
+2023-12-13 11:04:58.423 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/swagger/swagger-ui-bundle.js - -
+2023-12-13 11:04:58.427 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/swagger/swagger-ui-standalone-preset.js - -
+2023-12-13 11:04:58.427 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/swagger/swagger-ui.css - -
+2023-12-13 11:04:58.870 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-13 11:04:58.875 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/swagger/swagger-ui.css - - - 200 144929 text/css 447.4238ms
+2023-12-13 11:04:58.877 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-13 11:04:58.877 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/_framework/aspnetcore-browser-refresh.js - -
+2023-12-13 11:04:58.883 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/_framework/aspnetcore-browser-refresh.js - - - 200 12353 application/javascript;+charset=utf-8 3.6346ms
+2023-12-13 11:04:58.888 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 461.1082ms
+2023-12-13 11:04:59.890 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-13 11:04:59.950 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 1527.4114ms
+2023-12-13 11:05:00.251 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/swagger/v1/swagger.json - -
+2023-12-13 11:05:00.439 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 187.9913ms
+2023-12-13 11:12:50.015 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material - -
+2023-12-13 11:12:50.119 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:12:50.135 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:12:50.252 +01:00 [INF] Route matched with {action = "GetMaterials", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterials(Int32, Int32) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:12:54.483 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44340/api/material - -
+2023-12-13 11:12:54.486 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:12:54.490 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44340/api/material - - - 204 - - 6.7277ms
+2023-12-13 11:12:54.539 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44340/api/material application/json 110
+2023-12-13 11:12:54.541 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:12:54.541 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.PostMaterialInfo (lum.web.api)'
+2023-12-13 11:12:54.551 +01:00 [INF] Route matched with {action = "PostMaterialInfo", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] PostMaterialInfo(lum.view.model.ViewModel.MaterialViewModel) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:12:56.129 +01:00 [INF] GetMaterials called
+2023-12-13 11:12:57.617 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:12:57.661 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.PostMaterialInfo (lum.web.api) in 3097.6514ms
+2023-12-13 11:12:57.666 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.PostMaterialInfo (lum.web.api)'
+2023-12-13 11:12:57.667 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44340/api/material application/json 110 - 200 - application/json;+charset=utf-8 3127.4201ms
+2023-12-13 11:12:57.765 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:12:57.769 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api) in 7516.3044ms
+2023-12-13 11:12:57.770 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:12:57.774 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material - - - 200 - application/json;+charset=utf-8 7759.2200ms
+2023-12-13 11:12:57.777 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material - -
+2023-12-13 11:12:57.778 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:12:57.778 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:12:57.779 +01:00 [INF] Route matched with {action = "GetMaterials", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterials(Int32, Int32) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:12:57.780 +01:00 [INF] GetMaterials called
+2023-12-13 11:12:57.791 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:12:57.792 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api) in 13.7862ms
+2023-12-13 11:12:57.793 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:12:57.794 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material - - - 200 - application/json;+charset=utf-8 16.5650ms
+2023-12-13 11:12:59.590 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material - -
+2023-12-13 11:12:59.591 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:12:59.591 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:12:59.591 +01:00 [INF] Route matched with {action = "GetMaterials", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterials(Int32, Int32) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:12:59.591 +01:00 [INF] GetMaterials called
+2023-12-13 11:12:59.601 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:12:59.603 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api) in 11.8526ms
+2023-12-13 11:12:59.603 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:12:59.604 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material - - - 200 - application/json;+charset=utf-8 13.5819ms
+2023-12-13 11:12:59.608 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material - -
+2023-12-13 11:12:59.609 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:12:59.609 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:12:59.611 +01:00 [INF] Route matched with {action = "GetMaterials", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterials(Int32, Int32) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:12:59.616 +01:00 [INF] GetMaterials called
+2023-12-13 11:12:59.635 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:12:59.635 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api) in 21.5878ms
+2023-12-13 11:12:59.636 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:12:59.636 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material - - - 200 - application/json;+charset=utf-8 28.4168ms
+2023-12-13 11:13:06.375 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b - -
+2023-12-13 11:13:06.375 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:13:06.375 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api)'
+2023-12-13 11:13:06.378 +01:00 [INF] Route matched with {action = "GetMaterialsById", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterialsById(System.String) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:13:06.427 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:13:06.428 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api) in 49.5452ms
+2023-12-13 11:13:06.428 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api)'
+2023-12-13 11:13:06.428 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b - - - 200 - application/json;+charset=utf-8 53.7410ms
+2023-12-13 11:13:06.430 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b - -
+2023-12-13 11:13:06.431 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:13:06.431 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api)'
+2023-12-13 11:13:06.431 +01:00 [INF] Route matched with {action = "GetMaterialsById", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterialsById(System.String) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:13:06.433 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:13:06.434 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api) in 2.6546ms
+2023-12-13 11:13:06.434 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api)'
+2023-12-13 11:13:06.434 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b - - - 200 - application/json;+charset=utf-8 3.9122ms
+2023-12-13 11:13:08.928 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material - -
+2023-12-13 11:13:08.929 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:13:08.929 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:13:08.930 +01:00 [INF] Route matched with {action = "GetMaterials", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterials(Int32, Int32) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:13:08.930 +01:00 [INF] GetMaterials called
+2023-12-13 11:13:08.936 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:13:08.937 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api) in 6.5189ms
+2023-12-13 11:13:08.937 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:13:08.938 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material - - - 200 - application/json;+charset=utf-8 9.9256ms
+2023-12-13 11:13:08.939 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material - -
+2023-12-13 11:13:08.939 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:13:08.939 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:13:08.939 +01:00 [INF] Route matched with {action = "GetMaterials", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterials(Int32, Int32) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:13:08.939 +01:00 [INF] GetMaterials called
+2023-12-13 11:13:08.945 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:13:08.946 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api) in 6.5124ms
+2023-12-13 11:13:08.946 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:13:08.947 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material - - - 200 - application/json;+charset=utf-8 7.8900ms
+2023-12-13 11:13:11.462 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b - -
+2023-12-13 11:13:11.462 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:13:11.462 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api)'
+2023-12-13 11:13:11.463 +01:00 [INF] Route matched with {action = "GetMaterialsById", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterialsById(System.String) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:13:11.465 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:13:11.466 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api) in 2.9888ms
+2023-12-13 11:13:11.466 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api)'
+2023-12-13 11:13:11.466 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b - - - 200 - application/json;+charset=utf-8 4.3731ms
+2023-12-13 11:13:11.468 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b - -
+2023-12-13 11:13:11.468 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:13:11.468 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api)'
+2023-12-13 11:13:11.468 +01:00 [INF] Route matched with {action = "GetMaterialsById", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterialsById(System.String) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:13:11.471 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:13:11.472 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api) in 3.4974ms
+2023-12-13 11:13:11.472 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterialsById (lum.web.api)'
+2023-12-13 11:13:11.473 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b - - - 200 - application/json;+charset=utf-8 5.3717ms
+2023-12-13 11:13:19.230 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b - -
+2023-12-13 11:13:19.230 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:13:19.231 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b - - - 204 - - 1.0089ms
+2023-12-13 11:13:19.236 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b application/json 147
+2023-12-13 11:13:19.236 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:13:19.236 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.UpdateMaterialsById (lum.web.api)'
+2023-12-13 11:13:19.242 +01:00 [INF] Route matched with {action = "UpdateMaterialsById", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] UpdateMaterialsById(System.String, lum.view.model.ViewModel.MaterialViewModel) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:13:19.267 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:13:19.268 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.UpdateMaterialsById (lum.web.api) in 25.6872ms
+2023-12-13 11:13:19.268 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.UpdateMaterialsById (lum.web.api)'
+2023-12-13 11:13:19.268 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:44340/api/material/d5c27ebe-5850-4804-9554-e429abec750b application/json 147 - 200 - application/json;+charset=utf-8 32.2671ms
+2023-12-13 11:13:23.353 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material - -
+2023-12-13 11:13:23.355 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:13:23.357 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:13:23.358 +01:00 [INF] Route matched with {action = "GetMaterials", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterials(Int32, Int32) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:13:23.359 +01:00 [INF] GetMaterials called
+2023-12-13 11:13:23.368 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:13:23.369 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api) in 10.4378ms
+2023-12-13 11:13:23.369 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:13:23.370 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material - - - 200 - application/json;+charset=utf-8 16.8245ms
+2023-12-13 11:13:23.375 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44340/api/material - -
+2023-12-13 11:13:23.376 +01:00 [INF] CORS policy execution successful.
+2023-12-13 11:13:23.376 +01:00 [INF] Executing endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:13:23.376 +01:00 [INF] Route matched with {action = "GetMaterials", controller = "Material"}. Executing controller action with signature System.Threading.Tasks.Task`1[lum.app.core.LumResponse] GetMaterials(Int32, Int32) on controller lum.web.api.Controllers.MaterialController (lum.web.api).
+2023-12-13 11:13:23.376 +01:00 [INF] GetMaterials called
+2023-12-13 11:13:23.387 +01:00 [INF] Executing ObjectResult, writing value of type 'lum.app.core.LumResponse'.
+2023-12-13 11:13:23.388 +01:00 [INF] Executed action lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api) in 11.4318ms
+2023-12-13 11:13:23.388 +01:00 [INF] Executed endpoint 'lum.web.api.Controllers.MaterialController.GetMaterials (lum.web.api)'
+2023-12-13 11:13:23.391 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44340/api/material - - - 200 - application/json;+charset=utf-8 15.1480ms
